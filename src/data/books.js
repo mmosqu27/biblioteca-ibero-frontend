@@ -1,0 +1,81 @@
+import libro1 from "../assets/Libro 1.png";
+import libro2 from "../assets/Libro 2.png";
+import libro3 from "../assets/Libro 3.png";
+import libro4 from "../assets/Libro 4.png";
+
+export const books = [
+  {
+    id: 1,
+    title: "La Biblioteca de Medianoche",
+    author: "Matt Haig",
+    description:
+      "Una novela sobre todas las decisiones que conforman una vida bien vivida.",
+    isbn: "978-0-123456-78-9",
+    publisher: "Editorial Ejemplo",
+    year: 2023,
+    pages: 320,
+    available: true,
+    image: libro1,
+  },
+  {
+    id: 2,
+    title: "Orgullo y Prejuicio",
+    author: "Jane Austen",
+    description: "Una historia clásica sobre amor y sociedad.",
+    isbn: "978-0-111111-11-1",
+    publisher: "Editorial Clásica",
+    year: 2021,
+    pages: 280,
+    available: true,
+    image: libro2,
+  },
+  {
+    id: 3,
+    title: "Ficción Moderna",
+    author: "Varios Autores",
+    description: "Colección de relatos contemporáneos.",
+    isbn: "978-1-111111-11-1",
+    publisher: "Editorial Moderna",
+    year: 2022,
+    pages: 250,
+    available: false,
+    image: libro3,
+  },
+  {
+    id: 4,
+    title: "Matar a un Ruiseñor",
+    author: "Harper Lee",
+    description:
+      "Una novela sobre temas graves de violación e injusticia racial.",
+    isbn: "978-2-222222-22-2",
+    publisher: "Editorial Ejemplo",
+    year: 2023,
+    pages: 320,
+    available: false,
+    image: libro4,
+  },
+  {
+    id: 5,
+    title: "El Gran Gatsby",
+    author: "F. Scott Fitzgerald",
+    description: "Una novela sobre el sueño americano.",
+    isbn: "978-3-333333-33-3",
+    publisher: "Editorial Literaria",
+    year: 2019,
+    pages: 200,
+    available: true,
+    image: libro1,
+  },
+  {
+    id: 6,
+    title: "Cuentos de Misterio",
+    author: "Arthur Doyle",
+    description: "Relatos clásicos de misterio y suspenso.",
+    isbn: "978-4-444444-44-4",
+    publisher: "Editorial Misterio",
+    year: 2020,
+    pages: 300,
+    available: true,
+    image: libro4,
+  },
+];
